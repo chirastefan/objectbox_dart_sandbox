@@ -6,6 +6,7 @@ extension PlayersBox on ObjectBox {
     builder.link(Player_.user, User_.id.equals(userId));
 
     if (teamId != null) builder.linkMany(Player_.team, Team_.id.equals(teamId));
+    // if (teamId != null) builder.backlinkMany(Team_.players, Player_.id.equals(teamId));
 
     return builder.watch(triggerImmediately: true).map((query) => query.find());
   }

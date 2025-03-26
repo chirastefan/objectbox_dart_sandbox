@@ -4,84 +4,84 @@
   "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
   "entities": [
     {
-      "id": "1:7763311408059562103",
-      "lastPropertyId": "4:7090907252438533397",
+      "id": "1:2900962690272318012",
+      "lastPropertyId": "3:5687152462783193902",
       "name": "Player",
       "properties": [
         {
-          "id": "1:8431986919722719170",
+          "id": "1:6190504674630223984",
           "name": "id",
           "type": 6,
           "flags": 1
         },
         {
-          "id": "2:2226634189990562653",
+          "id": "2:1128157666993443667",
           "name": "name",
           "type": 9
         },
         {
-          "id": "3:8564423700824296600",
+          "id": "3:5687152462783193902",
           "name": "userId",
           "type": 11,
           "flags": 520,
-          "indexId": "1:6649503447834177375",
+          "indexId": "1:2792658246175311979",
           "relationTarget": "User"
         }
       ],
       "relations": [
         {
-          "id": "4:8960588697618963464",
+          "id": "1:411743337299665908",
           "name": "team",
-          "targetId": "2:1031360662610296093"
+          "targetId": "2:1183857991541103365"
         }
       ]
     },
     {
-      "id": "2:1031360662610296093",
-      "lastPropertyId": "4:7744953587052797917",
+      "id": "2:1183857991541103365",
+      "lastPropertyId": "3:7174055417801382596",
       "name": "Team",
       "properties": [
         {
-          "id": "1:6768500196682325494",
+          "id": "1:4749425587172026555",
           "name": "id",
           "type": 6,
           "flags": 1
         },
         {
-          "id": "2:8859071930054270029",
+          "id": "2:4211563479604356768",
           "name": "name",
           "type": 9
         },
         {
-          "id": "3:3062586676772056872",
+          "id": "3:7174055417801382596",
           "name": "userId",
           "type": 11,
           "flags": 520,
-          "indexId": "2:4938532076564801224",
+          "indexId": "2:5874752297472557205",
           "relationTarget": "User"
         }
       ],
       "relations": [
         {
-          "id": "3:7522696699387526885",
+          "id": "2:5531215922484350538",
           "name": "players",
-          "targetId": "1:7763311408059562103"
+          "targetId": "1:2900962690272318012"
         }
       ]
     },
     {
-      "id": "3:8103398659821877697",
-      "lastPropertyId": "6:3092704724037711195",
+      "id": "3:4322119048460973016",
+      "lastPropertyId": "2:8302261909669158531",
       "name": "User",
       "properties": [
         {
-          "id": "1:7701139094816392431",
+          "id": "1:5313327186630923711",
           "name": "id",
           "type": 6,
           "flags": 1
         },
         {
-          "id": "2:8976426275704770006",
+          "id": "2:8302261909669158531",
           "name": "name",
           "type": 9
         }
@@ -89,25 +89,15 @@
       "relations": []
     }
   ],
-  "lastEntityId": "3:8103398659821877697",
-  "lastIndexId": "2:4938532076564801224",
-  "lastRelationId": "4:8960588697618963464",
+  "lastEntityId": "3:4322119048460973016",
+  "lastIndexId": "2:5874752297472557205",
+  "lastRelationId": "2:5531215922484350538",
   "lastSequenceId": "0:0",
   "modelVersion": 5,
   "modelVersionParserMinimum": 5,
   "retiredEntityUids": [],
   "retiredIndexUids": [],
-  "retiredPropertyUids": [
-    1580540196311683264,
-    5405741736346513436,
-    3092704724037711195,
-    7744953587052797917,
-    7090907252438533397,
-    8313882778968307726
-  ],
-  "retiredRelationUids": [
-    7725527846490789224,
-    1000766493545073507
-  ],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
   "version": 1
 }
