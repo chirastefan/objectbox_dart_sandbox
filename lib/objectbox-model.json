@@ -30,7 +30,7 @@
       ],
       "relations": [
         {
-          "id": "1:1000766493545073507",
+          "id": "4:8960588697618963464",
           "name": "team",
           "targetId": "2:1031360662610296093"
         }
@@ -61,7 +61,13 @@
           "relationTarget": "User"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "id": "3:7522696699387526885",
+          "name": "players",
+          "targetId": "1:7763311408059562103"
+        }
+      ]
     },
     {
       "id": "3:8103398659821877697",
@@ -85,7 +91,7 @@
   ],
   "lastEntityId": "3:8103398659821877697",
   "lastIndexId": "2:4938532076564801224",
-  "lastRelationId": "1:1000766493545073507",
+  "lastRelationId": "4:8960588697618963464",
   "lastSequenceId": "0:0",
   "modelVersion": 5,
   "modelVersionParserMinimum": 5,
@@ -99,6 +105,9 @@
     7090907252438533397,
     8313882778968307726
   ],
-  "retiredRelationUids": [],
+  "retiredRelationUids": [
+    7725527846490789224,
+    1000766493545073507
+  ],
   "version": 1
 }

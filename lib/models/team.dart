@@ -10,7 +10,7 @@ class Team {
 
   // relationships
   final user = ToOne<User>();
-  @Backlink('team')
+  // @Backlink('team')
   final players = ToMany<Player>();
 
   Team({required this.name, this.id = 0});
